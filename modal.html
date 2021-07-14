@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="modal.css" rel="stylesheet">
+    <link href="sa-style.css" rel="stylesheet">
+</head>
+<body>
+
+<button data-modal="loginmodal">Click me</button>
+    <div id="loginmodal" class="saModal ">
+        <div class="sa-d-flex h-500 sa-per-10">
+            <div class=" h-100 bg-orange w-100" ></div>
+            <div class=" h-100 bg-red w-100"></div>
+            <div class=" h-100 bg-yellow w-100"></div>
+            <div class=" h-100 bg-red w-100"></div>
+            <div class=" h-100 bg-yellow w-100"></div>
+        </div>
+    </div>
+
+
+
+
+
+
+<script src="jquery.js"></script>
+<script src="modal.js"></script>
+<script>
+    $().saModal()
+</script>
+</body>
+</html>

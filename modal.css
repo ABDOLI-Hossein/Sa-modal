@@ -1,0 +1,60 @@
+button {
+    background-color: darkorange;
+    border: none;
+    width: 500px;
+    height: 100px;
+    border-radius: 5px;
+    outline: none;
+    display: block;
+    margin: 50px auto;
+    cursor: pointer;
+    color: #fff;
+    font-size: 50px;
+}
+
+.saModalWrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: 0.7;
+    z-index: 999;
+    display: none;
+}
+
+.saModal {
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 5px;
+    border: 2px solid #f1f1f1;
+    min-width: 20% !important;
+    max-width: 90% !important;
+    min-height: 100px;
+    z-index: 99999;
+    background-color: #fff;
+    display: none;
+    box-sizing: border-box;
+}
+
+.closebtn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 35px;
+    height: 35px;
+    background-color: darkorange;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.closebtn:hover{
+    background-color: chartreuse;
+
+}
